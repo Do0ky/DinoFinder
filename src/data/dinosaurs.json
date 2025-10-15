@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Eoraptor lunensis",
+    "family": "Sauropodomorph",
+    "period": "Triassic",
+    "epoch": "Late Triassic",
+    "age_mya": 230,
+    "diet": "Omnivore",
+    "formation": "Ischigualasto Formation",
+    "location": "Argentina",
+    "length_m": 1.2
+  },
+  {
+    "name": "Mbiresaurus raathi",
+    "family": "Sauropodomorph",
+    "period": "Triassic",
+    "epoch": "Late Triassic",
+    "age_mya": 230,
+    "diet": "Omnivore",
+    "formation": "Pebbly Arkose Formation",
+    "location": "Zimbabwe",
+    "length_m": 1.8
+  },
+  {
+    "name": "Plateosaurus engelhardti",
+    "family": "Sauropodomorph",
+    "period": "Triassic",
+    "epoch": "Late Triassic",
+    "age_mya": 210,
+    "diet": "Herbivore",
+    "formation": "Löwenstein Formation",
+    "location": "Germany",
+    "length_m": 8.0
+  },
+  {
+    "name": "Coelophysis bauri",
+    "family": "Theropod",
+    "period": "Triassic",
+    "epoch": "Late Triassic",
+    "age_mya": 205,
+    "diet": "Carnivore",
+    "formation": "Chinle Formation",
+    "location": "USA",
+    "length_m": 3.0
+  },
+  {
+    "name": "Leyesaurus marayensis",
+    "family": "Sauropodomorph",
+    "period": "Jurassic",
+    "epoch": "Early Jurassic",
+    "age_mya": 195,
+    "diet": "Herbivore",
+    "formation": "Quebrada del Barro Formation",
+    "location": "Argentina",
+    "length_m": 3.0
+  },
+  {
+    "name": "Massospondylus carinatus",
+    "family": "Sauropodomorph",
+    "period": "Jurassic",
+    "epoch": "Early Jurassic",
+    "age_mya": 195,
+    "diet": "Herbivore",
+    "formation": "Elliot Formation",
+    "location": "South Africa",
+    "length_m": 4.0
+  },
+  {
+    "name": "Cryolophosaurus ellioti",
+    "family": "Theropod",
+    "period": "Jurassic",
+    "epoch": "Early Jurassic",
+    "age_mya": 190,
+    "diet": "Carnivore",
+    "formation": "Hanson Formation",
+    "location": "Antarctica",
+    "length_m": 6.5
+  },
+  {
+    "name": "Brachiosaurus altithorax",
+    "family": "Sauropod",
+    "period": "Jurassic",
+    "epoch": "Late Jurassic",
+    "age_mya": 154,
+    "diet": "Herbivore",
+    "formation": "Morrison Formation",
+    "location": "USA",
+    "length_m": 25.0
+  },
+  {
+    "name": "Stegosaurus stenops",
+    "family": "Thyreophoran",
+    "period": "Jurassic",
+    "epoch": "Late Jurassic",
+    "age_mya": 155,
+    "diet": "Herbivore",
+    "formation": "Morrison Formation",
+    "location": "USA",
+    "length_m": 7.0
+  },
+  {
+    "name": "Allosaurus fragilis",
+    "family": "Theropod",
+    "period": "Jurassic",
+    "epoch": "Late Jurassic",
+    "age_mya": 155,
+    "diet": "Carnivore",
+    "formation": "Morrison Formation",
+    "location": "USA",
+    "length_m": 9.0
+  },
+  {
+    "name": "Iguanodon bernissartensis",
+    "family": "Ornithopod",
+    "period": "Cretaceous",
+    "epoch": "Early Cretaceous",
+    "age_mya": 125,
+    "diet": "Herbivore",
+    "formation": "Sainte-Barbe Clays",
+    "location": "Belgium",
+    "length_m": 10.0
+  },
+  {
+    "name": "Microraptor gui",
+    "family": "Theropod",
+    "period": "Cretaceous",
+    "epoch": "Early Cretaceous",
+    "age_mya": 120,
+    "diet": "Carnivore",
+    "formation": "Jiutofang Formation",
+    "location": "China",
+    "length_m": 0.8
+  },
+  {
+    "name": "Spinosaurus aegyptiacus",
+    "family": "Theropod",
+    "period": "Cretaceous",
+    "epoch": "Late Cretaceous",
+    "age_mya": 97,
+    "diet": "Carnivore",
+    "formation": "Kem Kem Beds",
+    "location": "Morocco",
+    "length_m": 15.0
+  },
+  {
+    "name": "Velociraptor mongoliensis",
+    "family": "Theropod",
+    "period": "Cretaceous",
+    "epoch": "Late Cretaceous",
+    "age_mya": 75,
+    "diet": "Carnivore",
+    "formation": "Djadochta Formation",
+    "location": "Mongolia",
+    "length_m": 2.0
+  },
+  {
+    "name": "Triceratops horridus",
+    "family": "Ceratopsid",
+    "period": "Cretaceous",
+    "epoch": "Late Cretaceous",
+    "age_mya": 68,
+    "diet": "Herbivore",
+    "formation": "Hell Creek Formation",
+    "location": "USA",
+    "length_m": 9.0
+  },
+  {
+    "name": "Tyrannosaurus rex",
+    "family": "Theropod",
+    "period": "Cretaceous",
+    "epoch": "Late Cretaceous",
+    "age_mya": 67,
+    "diet": "Carnivore",
+    "formation": "Hell Creek Formation",
+    "location": "USA",
+    "length_m": 12.0
+  }
+]

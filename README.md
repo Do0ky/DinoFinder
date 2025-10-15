@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+# 🦕 DINO FINDER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Static Badge](https://img.shields.io/badge/React-blue?style=plastic&logo=react&color=61DBFB)
+![Static Badge](https://img.shields.io/badge/TypeScript-blue?style=plastic&logo=typescript)
+![Static Badge](https://img.shields.io/badge/npm-red?style=plastic&logo=npm&color=CB3837)
+![Static Badge](https://img.shields.io/badge/CSS3-blue?style=plastic&logo=css&color=2965f1)
+![Static Badge](https://img.shields.io/badge/Git-blue?style=plastic&logo=git&color=f14e32)
 
-## Available Scripts
+An interactive React and TypeScript gallery of dinosaur species.
+Search, multi‑filter, sort, and open detailed modal views to explore paleontological facts in an accessible, educational interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌍 Project Vision
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Dino Finder** helps learners and enthusiasts discover dinosaurs through an intuitive, visually engaging UI. The app blends scientific clarity with playful design: searchable data, granular filters, and focused detail views let users explore taxonomy, geologic context, and specimen metrics.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🔍 **Search & Multi Filter**  
+    Search dinosaurs by name, family, location, diet, period, epoch, or geological formation with combined filters that return matches for all selected criteria.
+- 🦖 **Dynamic Gallery**   
+  Grid of Dino cards with period badges, thumbnails, and quick facts. Responsive layout for desktop and mobile.
+- 📘 **Dino Detail Modal**  
+  Click a card to open an overlay showing all the information fields with friendly labels.
+- 🎛️ **Collapsible Filters**  
+  Toggleable filter bar with dropdowns for focused exploration that keeps the UI uncluttered.
+- 🛡️ **Type Safe Data Model**  
+  Dinosaur shape enforced with TypeScript interfaces for predictable rendering and maintainability.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🧪 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **React** with Hooks
+- **TypeScript**
+- **CSS** (modular/global styles)
+- **JSON** as dataset source
+- **React Router** *(optional for navigation)*
+- **Local Storage** *(future persistence)*
+  
+---
 
-### `npm run eject`
+## 📁 Project Structure
+```bash
+src/
+├── components/
+│   ├── DinoCard.tsx
+│   ├── DinoList.tsx
+│   ├── DinoModal.tsx
+│   └── Filters.tsx
+├── data/
+│   └── dinosaurs.json
+├── App.tsx
+├── index.tsx
+└── App.css
+```
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Data Sources and inspirations
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Wikipedia](https://www.wikipedia.org)
+- [Natural History Museum: The Dino Directory](https://www.nhm.ac.uk/discover/dino-directory.html)
+- [DinoNews : Liste alphabétique des dinosaures](https://dinonews.net/index/liste_alpha.php)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ Installation & Setup
+```bash
+git clone https://github.com/Do0ky/DinoFinder.git 
+cd DinoFinder
+npm install
+npm start
+```
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💡 Potential Future Enhancements
+- 🖼️ Images and artist renditions for each specimen
+- 🌐 API integration to fetch an expanded, curated dataset
+- ♿ Accessibility audit and keyboard navigation improvements
+- 📒 Field notes and personal collection saved to local storage or user accounts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 👨‍💻 Author
+Created by:
+- **Claire Peyre**  
