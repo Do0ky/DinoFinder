@@ -7,18 +7,18 @@
   background-color: rgba(30, 20, 10, 0.6);
   display: flex;
   justify-content: center;
-  align-items: center; /* changed from center */
-  overflow-y: auto; /* allow scrolling */
-  padding: 2rem 0; /* add vertical breathing room */
+  align-items: center;
+  overflow-y: auto;
+  padding: 2rem 0;
   z-index: 1000;
 }
 .Modal-content {
   background: #dbc6b2;
   padding: 2rem;
-  border-radius: 12px;
-  max-width: 500px;
-  width: 90%;
-  max-height: 80vh;
+  border-radius: 15px;
+  max-width: 750px;
+  width: 85%;
+  max-height: 75vh;
   overflow-y: auto;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
   position: relative;
@@ -33,12 +33,36 @@
   cursor: pointer;
   color: #3e2f1c;
 }
+.Modal-body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Modal-text {
+  flex: 1;
+  overflow-y: auto;
+  max-height: 70vh;
+}
+.Modal-globeContainer {
+  flex: 1;
+  height: 420px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grab;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #c9b59f4d; /* subtle translucent background */
+}
+
 .Modal-content h2 {
   margin-top: 0;
   font-size: 1.8rem;
   font-style: italic;
   color: #2f3e2e;
 }
+
 .Modal-periodBadge {
   display: inline-block;
   padding: 0.3rem 0.6rem;
@@ -58,4 +82,15 @@
 }
 .badge-bg-default-md {
   background-color: #999;
+}
+
+
+@media (max-width: 700px) {
+  .Modal-body {
+    flex-direction: column;
+  }
+  .Modal-globeContainer {
+    width: 450px;
+    height: 70px;
+  }
 }
