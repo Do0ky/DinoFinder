@@ -39,7 +39,7 @@ Search, multi‑filter, sort, and open detailed modal views to explore paleontol
 - **TypeScript**
 - **CSS** (modular/global styles)
 - **JSON** as dataset source
-- **React Router** *(optional for navigation)*
+- **React Router**
 - **Local Storage** *(future persistence)*
   
 ---
@@ -54,6 +54,10 @@ src/
 │   └── Filters.tsx
 ├── data/
 │   └── dinosaurs.json
+├── pages/
+│   ├── About.tsx
+│   ├── Home.tsx
+│   └── Landing.tsx
 ├── App.tsx
 ├── index.tsx
 └── App.css
@@ -65,7 +69,6 @@ src/
 - [Wikipedia](https://www.wikipedia.org)
 - [Natural History Museum: The Dino Directory](https://www.nhm.ac.uk/discover/dino-directory.html)
 - [DinoNews : Liste alphabétique des dinosaures](https://dinonews.net/index/liste_alpha.php)
-
 
 ---
 
@@ -86,6 +89,6 @@ npm start
 
 ---
 
-## 👨‍💻 Author
+## 👩‍💻 Author
 Created by:
 - **Claire Peyre**  
