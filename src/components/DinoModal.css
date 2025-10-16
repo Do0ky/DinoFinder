@@ -45,13 +45,13 @@
 }
 .Modal-globeContainer {
   flex: 1;
-  height: 420px;
+  height: 430px;
   margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: grab;
-  border-radius: 12px;
+  border-radius: 90px;
   overflow: hidden;
   background: #c9b59f4d; /* subtle translucent background */
 }
