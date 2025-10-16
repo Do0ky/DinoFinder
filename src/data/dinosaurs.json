@@ -8,7 +8,9 @@
     "diet": "Omnivore",
     "formation": "Ischigualasto Formation",
     "location": "Argentina",
-    "length_m": 1.2
+    "length_m": 1.2,
+    "latitude": -30,
+    "longitude": -68
   },
   {
     "name": "Mbiresaurus raathi",
@@ -19,10 +21,12 @@
     "diet": "Omnivore",
     "formation": "Pebbly Arkose Formation",
     "location": "Zimbabwe",
-    "length_m": 1.8
+    "length_m": 1.8,
+    "latitude": -16.2,
+    "longitude": 30.5
   },
   {
-    "name": "Plateosaurus engelhardti",
+    "name": "Plateosaurus trossingensis",
     "family": "Sauropodomorph",
     "period": "Triassic",
     "epoch": "Late Triassic",
@@ -30,7 +34,9 @@
     "diet": "Herbivore",
     "formation": "Löwenstein Formation",
     "location": "Germany",
-    "length_m": 8.0
+    "length_m": 8.0, 
+    "latitude": 47.87,
+    "longitude":8.01
   },
   {
     "name": "Coelophysis bauri",
@@ -41,7 +47,9 @@
     "diet": "Carnivore",
     "formation": "Chinle Formation",
     "location": "USA",
-    "length_m": 3.0
+    "length_m": 3.0,
+    "latitude": 36.20,
+    "longitude": -106.27
   },
   {
     "name": "Leyesaurus marayensis",
@@ -52,7 +60,9 @@
     "diet": "Herbivore",
     "formation": "Quebrada del Barro Formation",
     "location": "Argentina",
-    "length_m": 3.0
+    "length_m": 3.0,
+    "latitude": -31.3,
+    "longitude": -67.2
   },
   {
     "name": "Massospondylus carinatus",
@@ -63,7 +73,9 @@
     "diet": "Herbivore",
     "formation": "Elliot Formation",
     "location": "South Africa",
-    "length_m": 4.0
+    "length_m": 4.0,
+    "latitude": -28.96,
+    "longitude": 27.43
   },
   {
     "name": "Cryolophosaurus ellioti",
@@ -74,7 +86,9 @@
     "diet": "Carnivore",
     "formation": "Hanson Formation",
     "location": "Antarctica",
-    "length_m": 6.5
+    "length_m": 6.5,
+    "latitude": -84.18,
+    "longitude": 164.94
   },
   {
     "name": "Brachiosaurus altithorax",
@@ -85,7 +99,9 @@
     "diet": "Herbivore",
     "formation": "Morrison Formation",
     "location": "USA",
-    "length_m": 25.0
+    "length_m": 25.0,
+    "latitude": 39.07,
+    "longitude": -108.65
   },
   {
     "name": "Stegosaurus stenops",
@@ -96,7 +112,9 @@
     "diet": "Herbivore",
     "formation": "Morrison Formation",
     "location": "USA",
-    "length_m": 7.0
+    "length_m": 7.0,
+    "latitude": 39.67,
+    "longitude": -105.19
   },
   {
     "name": "Allosaurus fragilis",
@@ -107,7 +125,9 @@
     "diet": "Carnivore",
     "formation": "Morrison Formation",
     "location": "USA",
-    "length_m": 9.0
+    "length_m": 9.0,
+    "latitude": 38.56,
+    "longitude": -105.21
   },
   {
     "name": "Iguanodon bernissartensis",
@@ -118,7 +138,9 @@
     "diet": "Herbivore",
     "formation": "Sainte-Barbe Clays",
     "location": "Belgium",
-    "length_m": 10.0
+    "length_m": 10.0,
+    "latitude": 50.83,
+    "longitude": 4.37
   },
   {
     "name": "Microraptor gui",
@@ -129,7 +151,9 @@
     "diet": "Carnivore",
     "formation": "Jiutofang Formation",
     "location": "China",
-    "length_m": 0.8
+    "length_m": 0.8,
+    "latitude": 41.2,
+    "longitude": 119.4
   },
   {
     "name": "Spinosaurus aegyptiacus",
@@ -140,7 +164,9 @@
     "diet": "Piscivore",
     "formation": "Kem Kem Beds",
     "location": "Morocco",
-    "length_m": 15.0
+    "length_m": 15.0,
+    "latitude": 28.12,
+    "longitude":29.04
   },
   {
     "name": "Velociraptor mongoliensis",
@@ -151,7 +177,9 @@
     "diet": "Carnivore",
     "formation": "Djadochta Formation",
     "location": "Mongolia",
-    "length_m": 2.0
+    "length_m": 2.0,
+    "latitude": 44.08,
+    "longitude": 103.43
   },
   {
     "name": "Triceratops horridus",
@@ -162,7 +190,9 @@
     "diet": "Herbivore",
     "formation": "Hell Creek Formation",
     "location": "USA",
-    "length_m": 9.0
+    "length_m": 9.0,
+    "latitude": 43.21,
+    "longitude": -104.49
   },
   {
     "name": "Tyrannosaurus rex",
@@ -173,6 +203,8 @@
     "diet": "Carnivore",
     "formation": "Hell Creek Formation",
     "location": "USA",
-    "length_m": 12.0
+    "length_m": 12.0,
+    "latitude": 46.92,
+    "longitude": -107.73
   }
 ]
