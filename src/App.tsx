@@ -1,10 +1,11 @@
+/* STYLING */
+import './App.css';
 /* REACT */
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
 /* PAGES */
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
-
 
 function App() {
   
@@ -17,7 +18,7 @@ function App() {
 
       {!isLanding && (
         <header className="App-header">
-          <div className="App-title">Dino Finder 🦕</div>
+          <img src="/dinofinder_logo_green.png" alt="DINO Finder logo" className="App-logo" />
           <nav className="App-menu">
             <Link to="/">Landing</Link>
             <Link to="/home">Home</Link>
