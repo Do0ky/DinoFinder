@@ -26,7 +26,7 @@ function DinoCard({ dino }: DinoCardProps) {
 
         <span className={`Period-badge ${periodColors[dino.period] || "badge-bg-default"}`}>{dino.period}</span>
         
-        <h2>{dino.name}</h2>
+        <h2>{dino.name.split(' ')[0]}</h2>
         <p><strong>Age:</strong> -{dino.age_mya} Mya</p>
         <p><strong>Discovered in:</strong> {dino.location}</p>
         <p><strong>Diet:</strong> {dino.diet}</p>
