@@ -1,4 +1,4 @@
-import { Dinosaur } from "../App";
+import { Dinosaur } from "../pages/Home";
 
 interface DinoCardProps {
   dino: Dinosaur;

@@ -1,5 +1,5 @@
 import DinoCard from "./DinoCard";
-import { Dinosaur } from "../App";
+import { Dinosaur } from "../pages/Home";
 
 interface DinoListProps {
   dinosaurs: Dinosaur[];
@@ -12,7 +12,7 @@ function DinoList( { dinosaurs, onSelect }: DinoListProps) {
     <div className="Dino-grid">
       
       {dinosaurs.map( (dino) => (
-        <div onClick={() => onSelect(dino)} key={dino.name}>
+        <div onClick={ () => onSelect(dino)} key={dino.name} >
             <DinoCard dino={dino} />
         </div>
       ))}

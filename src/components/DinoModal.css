@@ -7,7 +7,9 @@
   background-color: rgba(30, 20, 10, 0.6);
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; /* changed from center */
+  overflow-y: auto; /* allow scrolling */
+  padding: 2rem 0; /* add vertical breathing room */
   z-index: 1000;
 }
 .Modal-content {

@@ -1,10 +1,13 @@
-import { Dinosaur } from "../App";
+import { Dinosaur } from "../pages/Home";
 import './DinoModal.css';
+import ReactDOM from 'react-dom';
 
 interface DinoModalProps {
   dino: Dinosaur;
   onClose: () => void;
 }
+
+const modalRoot = document.getElementById('modal-root');
 
 function DinoModal( { dino, onClose }: DinoModalProps) {
     
@@ -33,8 +36,7 @@ function DinoModal( { dino, onClose }: DinoModalProps) {
       Omnivore: "🐛"
     };
 
-
-  return (
+  return modalRoot ? ReactDOM.createPortal(
     <div className="Modal-overlay" onClick={onClose}>
 
       <div className="Modal-content" onClick={ (e) => e.stopPropagation()}>
@@ -114,9 +116,10 @@ function DinoModal( { dino, onClose }: DinoModalProps) {
           </ul>
 
       </div>
-
-    </div>
-  );
+    </div>,
+    modalRoot
+  )
+  : null;
 }
 
 export default DinoModal;
