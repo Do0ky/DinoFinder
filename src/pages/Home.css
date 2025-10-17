@@ -25,7 +25,7 @@
   font-size: 1.1rem;
   border: 2px solid rgba(31, 78, 65, 0.432);
   border-radius: 8px;
-  background-color: #f5f0e6;
+  background-color: #f5f0e681;
   color: #2f3e2e;
   font-family: 'IM Fell DW Pica', serif;
 }
@@ -40,8 +40,8 @@
   margin: 1rem 0;
 }
 .Toggle-filters {
-  background-color: #e0e0e0;
-  color: #2f3e2e;
+  background-color: #4a5f4d;
+  color: #dbc8af;
   border: none;
   padding: 0.5rem 1rem;
   font-size: 1.2rem;
@@ -52,7 +52,7 @@
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .Toggle-filters:hover {
-  background-color: #d0d0d0;
+  background-color: #314735;
 }
 .Filter-bar {
   display: flex;
@@ -65,8 +65,8 @@
   padding: 0.5rem;
   font-size: 0.9rem;
   border-radius: 6px;
-  border: 2px solid #ccc;
-  background-color: #f5f0e6;
+  border: 2px solid rgba(31, 78, 65, 0.432);
+  background-color: #f5f0e68a;
   color: #2f3e2e;
 }
 
@@ -84,22 +84,42 @@
   border-radius: 12px;
   padding: 1rem;
   position: relative;
+  overflow: hidden;
   transition: box-shadow 0.2s ease;
+}
+.Dino-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--dino-bg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.20;
+  /* filter: grayscale(100%) contrast(120%); */
+  z-index: 0;
+}
+.Dino-card > * {
+  position: relative;
+  z-index: 1;
 }
 .Dino-card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .Dino-card h2 {
   margin-top: 0;
+  margin-bottom: 2rem;
   padding-top: 1.5rem;
   font-size: 1.6rem;
   font-style: italic;
   color: #2f3e2e;
 }
 .Dino-card p {
-  margin: 0.25rem 0;
-  font-size: 0.95rem;
+  margin: 0.2rem 0;
+  font-size: 0.90rem;
   color: #4a5f4d;
+}
+.card-text {
+    margin-bottom: 2.1rem;
 }
 /* Period badge */
 .Period-badge {

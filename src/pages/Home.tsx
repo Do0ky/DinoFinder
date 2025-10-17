@@ -22,6 +22,7 @@ export interface Dinosaur {
     length_m?: number;
     latitude?: number;
     longitude?: number;
+    image?: string;
 }
 
 function Home() {
