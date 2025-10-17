@@ -13,7 +13,7 @@
   z-index: 1000;
 }
 .Modal-content {
-  background: #dbc6b2;
+  background: rgb(230, 203, 163);
   padding: 2rem;
   border-radius: 15px;
   max-width: 750px;
