@@ -10,7 +10,8 @@
     "location": "Argentina",
     "length_m": 1.2,
     "latitude": -30,
-    "longitude": -68
+    "longitude": -68,
+    "image": "/dinos/01.eoraptor.jpg"
   },
   {
     "name": "Mbiresaurus raathi",
@@ -23,7 +24,8 @@
     "location": "Zimbabwe",
     "length_m": 1.8,
     "latitude": -16.2,
-    "longitude": 30.5
+    "longitude": 30.5,
+    "image": "/dinos/02.mbiresaurus.jpg"
   },
   {
     "name": "Plateosaurus trossingensis",
@@ -36,7 +38,8 @@
     "location": "Germany",
     "length_m": 8.0, 
     "latitude": 47.87,
-    "longitude":8.01
+    "longitude":8.01,
+    "image": "/dinos/03.plateosaurus.jpg"
   },
   {
     "name": "Coelophysis bauri",
@@ -49,7 +52,8 @@
     "location": "USA",
     "length_m": 3.0,
     "latitude": 36.20,
-    "longitude": -106.27
+    "longitude": -106.27,
+    "image": "/dinos/04.coelophysis.jpg"
   },
   {
     "name": "Leyesaurus marayensis",
@@ -62,7 +66,8 @@
     "location": "Argentina",
     "length_m": 3.0,
     "latitude": -31.3,
-    "longitude": -67.2
+    "longitude": -67.2,
+    "image": "/dinos/05.leyesaurus.jpg"
   },
   {
     "name": "Massospondylus carinatus",
@@ -75,7 +80,8 @@
     "location": "South Africa",
     "length_m": 4.0,
     "latitude": -28.96,
-    "longitude": 27.43
+    "longitude": 27.43,
+    "image": "/dinos/06.massospondylus.jpg"
   },
   {
     "name": "Cryolophosaurus ellioti",
@@ -88,7 +94,8 @@
     "location": "Antarctica",
     "length_m": 6.5,
     "latitude": -84.18,
-    "longitude": 164.94
+    "longitude": 164.94,
+    "image": "/dinos/07.cryolophosaurus.jpg"
   },
   {
     "name": "Brachiosaurus altithorax",
@@ -101,7 +108,8 @@
     "location": "USA",
     "length_m": 25.0,
     "latitude": 39.07,
-    "longitude": -108.65
+    "longitude": -108.65,
+    "image": "/dinos/08.brachiosaurus.jpg"
   },
   {
     "name": "Stegosaurus stenops",
@@ -114,7 +122,8 @@
     "location": "USA",
     "length_m": 7.0,
     "latitude": 39.67,
-    "longitude": -105.19
+    "longitude": -105.19,
+    "image": "/dinos/09.stegosaurus.jpg"
   },
   {
     "name": "Allosaurus fragilis",
@@ -127,7 +136,8 @@
     "location": "USA",
     "length_m": 9.0,
     "latitude": 38.56,
-    "longitude": -105.21
+    "longitude": -105.21,
+    "image": "/dinos/10.allosaurus.jpg"
   },
   {
     "name": "Iguanodon bernissartensis",
@@ -140,7 +150,8 @@
     "location": "Belgium",
     "length_m": 10.0,
     "latitude": 50.83,
-    "longitude": 4.37
+    "longitude": 4.37,
+    "image": "/dinos/11.iguanodon.jpg"
   },
   {
     "name": "Microraptor gui",
@@ -153,7 +164,8 @@
     "location": "China",
     "length_m": 0.8,
     "latitude": 41.2,
-    "longitude": 119.4
+    "longitude": 119.4,
+    "image": "/dinos/12.microraptor.jpg"
   },
   {
     "name": "Spinosaurus aegyptiacus",
@@ -166,7 +178,8 @@
     "location": "Morocco",
     "length_m": 15.0,
     "latitude": 28.12,
-    "longitude":29.04
+    "longitude":29.04,
+    "image": "/dinos/13.spinosaurus.jpg"
   },
   {
     "name": "Velociraptor mongoliensis",
@@ -179,7 +192,8 @@
     "location": "Mongolia",
     "length_m": 2.0,
     "latitude": 44.08,
-    "longitude": 103.43
+    "longitude": 103.43,
+    "image": "/dinos/14.velociraptor.jpg"
   },
   {
     "name": "Triceratops horridus",
@@ -192,7 +206,8 @@
     "location": "USA",
     "length_m": 9.0,
     "latitude": 43.21,
-    "longitude": -104.49
+    "longitude": -104.49,
+    "image": "/dinos/15.triceratops.jpg"
   },
   {
     "name": "Tyrannosaurus rex",
@@ -205,6 +220,7 @@
     "location": "USA",
     "length_m": 12.0,
     "latitude": 46.92,
-    "longitude": -107.73
+    "longitude": -107.73,
+    "image": "/dinos/16.tyrannosaurus.jpg"
   }
 ]
