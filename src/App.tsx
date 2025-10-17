@@ -6,6 +6,7 @@ import { Routes, Route, Link, useLocation } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Home from './pages/Home';
 import About from './pages/About';
+import Dinoletter from './pages/Dinoletter';
 
 function App() {
   
@@ -23,7 +24,7 @@ function App() {
             <Link to="/">Landing</Link>
             <Link to="/home">Home</Link>
             <Link to="/about">About</Link>
-            <a href="#">Dinoletter</a>
+            <Link to="/dinoletter">Dinoletter</Link>
           </nav>
         </header>
       )}
@@ -32,6 +33,7 @@ function App() {
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/dinoletter" element={<Dinoletter />} />
       </Routes>
       
       {!isLanding && (
