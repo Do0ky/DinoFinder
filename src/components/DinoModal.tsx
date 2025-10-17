@@ -24,7 +24,8 @@ function DinoModal( { dino, onClose }: DinoModalProps) {
         location: "Discovery Location",
         length_m: "Length",
         latitude: "Latitude",
-        longitude: "Longitude"
+        longitude: "Longitude", 
+        image: "Image"
     };
     //conditional coloration by period
     const periodColors: Record<string, string> = {
