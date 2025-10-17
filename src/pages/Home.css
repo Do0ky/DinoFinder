@@ -94,8 +94,8 @@
   background-image: var(--dino-bg);
   background-size: cover;
   background-position: center;
-  opacity: 0.20;
-  /* filter: grayscale(100%) contrast(120%); */
+  opacity: 0.15;
+  filter: grayscale(100%);
   z-index: 0;
 }
 .Dino-card > * {
@@ -151,29 +151,29 @@
 }
 /* Epoch backgrounds for cards */
 .bg-triassic {
-  background-color: #d3b5d736;
-  border: 2px solid #d3b5d7;
+  background-color: #e0c4dd88;
+  border: 2px solid #7a677c50;
   /*carnian color c6aad2
   rhaetian color e0c4dd */
 }
 .bg-jurassic-e {
-  background-color: #4abfee27;
-  border: 2px solid #71d2f8c0;
+  background-color: #4aa4ee67;
+  border: 2px solid #32597442;
   /* sinemurian color 4ac0ee */
 }
 .bg-jurassic-l {
-  background-color: #a2c5d43d;
-  border: 2px solid #a2c5d4;
+  background-color: #b8e5faa6;
+  border: 2px solid #54687062;
   /* oxfordian color b8e5fa */
 }
 .bg-cretaceous-e {
-  background-color: #b8db9b3a;
-  border: 2px solid #b8db9b;
+  background-color: #b8db9b80;
+  border: 2px solid #61745248;
   /* barremian color b8db9b*/
 }
 .bg-cretaceous-l {
-  background-color: #e9ed993d;
-  border: 2px solid #e9ed99;
+  background-color: #e9ed9977;
+  border: 2px solid #6b6d455d;
   /* campanian color e9ed99*/
 }
 .bg-default {
