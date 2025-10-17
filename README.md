@@ -13,22 +13,28 @@ Search, multi‑filter, sort, and open detailed modal views to explore paleontol
 
 ## 🌍 Project Vision
 
-**Dino Finder** helps learners and enthusiasts discover dinosaurs through an intuitive, visually engaging UI. The app blends scientific clarity with playful design: searchable data, granular filters, and focused detail views let users explore taxonomy, geologic context, and specimen metrics.
+**Dino Finder** helps learners and enthusiasts discover dinosaurs through an intuitive, visually engaging UI. The app blends scientific clarity with playful design: searchable data, color-coded epochs, badge-style visuals, and immersive overlays make paleontology accessible and memorable.
 
 ---
 
 ## 🚀 Features
 
 - 🔍 **Search & Multi Filter**  
-    Search dinosaurs by name, family, location, diet, period, epoch, or geological formation with combined filters that return matches for all selected criteria.
+    Search dinosaurs by name, family, location, diet, period, epoch, or geological formation and use combined filters for precise results.
 - 🦖 **Dynamic Gallery**   
-  Grid of Dino cards with period badges, thumbnails, and quick facts. Responsive layout for desktop and mobile.
+  Responsive grid of Dino cards with color-coded backgrounds and badge overlays by period, and faint vintage-style image watermarks.
 - 📘 **Dino Detail Modal**  
-  Click a card to open an overlay showing all the information fields with friendly labels.
+  Click any card to open a modal with full specimen info, styled labels, and accessible layout.
 - 🎛️ **Collapsible Filters**  
   Toggleable filter bar with dropdowns for focused exploration that keeps the UI uncluttered.
 - 🛡️ **Type Safe Data Model**  
   Dinosaur shape enforced with TypeScript interfaces for predictable rendering and maintainability.
+- 💌 **DinoLetter Subscription**  
+  A dedicated page with a form to subscribe to monthly fossil updates. Includes name/email input, success feedback, and a trust disclaimer.
+- ♿ **Accessibility Features**  
+  Screen reader support, keyboard navigation, semantic HTML, and clear visual hierarchy.
+- 🎨 **Badge & Epoch Styling System**  
+  Cards and badges reflect geologic time visually: Triassic, Jurassic, and Cretaceous periods are color-coded and styled for clarity and immersion.
 
 
 ---
@@ -38,15 +44,18 @@ Search, multi‑filter, sort, and open detailed modal views to explore paleontol
 - **React** with Hooks
 - **TypeScript**
 - **CSS** (modular/global styles)
-- **JSON** as dataset source
+- **JSON** dataset
+- **React Globe**
+- **React Portal**
 - **React Router**
-- **Local Storage** *(future persistence)*
   
 ---
 
 ## 📁 Project Structure
 ```bash
 src/
+├── assets/
+│   └── images
 ├── components/
 │   ├── DinoCard.tsx
 │   ├── DinoList.tsx
@@ -57,7 +66,8 @@ src/
 ├── pages/
 │   ├── About.tsx
 │   ├── Home.tsx
-│   └── Landing.tsx
+│   ├── Landing.tsx
+│   └── Dinoletter.tsx
 ├── App.tsx
 ├── index.tsx
 └── App.css
@@ -86,6 +96,8 @@ npm start
 - 🌐 API integration to fetch an expanded, curated dataset
 - ♿ Accessibility audit and keyboard navigation improvements
 - 📒 Field notes and personal collection saved to local storage or user accounts
+- 🔍 Advanced sorting and taxonomy filters
+- 🧠 Quiz mode for learners
 
 ---
 
