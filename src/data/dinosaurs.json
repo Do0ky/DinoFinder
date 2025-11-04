@@ -84,6 +84,20 @@
     "image": "/dinos/06.massospondylus.jpg"
   },
   {
+    "name": "Scelidosaurus harrisonii",
+    "family": "Thyreophoran",
+    "period": "Jurassic",
+    "epoch": "Early Jurassic",
+    "age_mya": 191,
+    "diet": "Herbivore",
+    "formation": "Charmouth Mudstone Formation",
+    "location": "England",
+    "length_m": 4.0,
+    "latitude": 50.7,
+    "longitude": -2.9,
+    "image": "/dinos/06.scelidosaurus.jpg"
+},
+  {
     "name": "Cryolophosaurus ellioti",
     "family": "Theropod",
     "period": "Jurassic",
@@ -96,6 +110,34 @@
     "latitude": -84.18,
     "longitude": 164.94,
     "image": "/dinos/07.cryolophosaurus.jpg"
+  },
+  {
+    "name": "Kulindadromeus zabaikalicus",
+    "family": "Ornithischian",
+    "period": "Jurassic",
+    "epoch": "Middle Jurassic",
+    "age_mya": 168,
+    "diet": "Herbivore",
+    "formation": "Ukureyskaya Formation",
+    "location": "Russia",
+    "length_m": 1.5,
+    "latitude": 52.50,
+    "longitude": 116.5,
+    "image": "/dinos/09.kulindadromeus.jpg"
+  },
+  {
+    "name": "Megalosaurus bucklandii",
+    "family": "Theropod",
+    "period": "Jurassic",
+    "epoch": "Middle Jurassic",
+    "age_mya": 166,
+    "diet": "Carnivore",
+    "formation": "Taynton Limestone Formation",
+    "location": "England",
+    "length_m": 6.0,
+    "latitude": 51.8,
+    "longitude": -1.3,
+    "image": "/dinos/07.megalosaurus.jpg"
   },
   {
     "name": "Brachiosaurus altithorax",
