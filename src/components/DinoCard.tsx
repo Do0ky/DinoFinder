@@ -10,6 +10,7 @@ function DinoCard({ dino }: DinoCardProps) {
     const epochColors: Record<string, string> = {
         "Late Triassic": "bg-triassic",
         "Early Jurassic": "bg-jurassic-e",
+        "Middle Jurassic": "bg-jurassic-m",
         "Late Jurassic": "bg-jurassic-l",
         "Early Cretaceous": "bg-cretaceous-e",
         "Late Cretaceous": "bg-cretaceous-l"
