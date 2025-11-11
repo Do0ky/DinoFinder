@@ -96,7 +96,7 @@
     "latitude": 50.7,
     "longitude": -2.9,
     "image": "/dinos/06.scelidosaurus.jpg"
-},
+  },
   {
     "name": "Cryolophosaurus ellioti",
     "family": "Theropod",
@@ -124,6 +124,34 @@
     "latitude": 52.50,
     "longitude": 116.5,
     "image": "/dinos/09.kulindadromeus.jpg"
+  },
+  {
+    "name": "Lapparentosaurus madagascariensis",
+    "family": "Sauropod",
+    "period": "Jurassic",
+    "epoch": "Middle Jurassic",
+    "age_mya": 167,
+    "diet": "Herbivore",
+    "formation": "Isalo III Formation",
+    "location": "Madagascar",
+    "length_m": 15.0,
+    "latitude": -16.42,
+    "longitude": 47.13,
+    "image": "/dinos/09.lapparentosaurus.jpg"
+  },
+  {
+    "name": "Spicomellus afer",
+    "family": "Thyreophoran",
+    "period": "Jurassic",
+    "epoch": "Middle Jurassic",
+    "age_mya": 167,
+    "diet": "Herbivore",
+    "formation": "El Mers III Formation",
+    "location": "Morocco",
+    "length_m": 4.0,
+    "latitude": 33.3,
+    "longitude": -4.8,
+    "image": "/dinos/09.spicomellus.jpg"
   },
   {
     "name": "Megalosaurus bucklandii",
@@ -180,6 +208,20 @@
     "latitude": 38.56,
     "longitude": -105.21,
     "image": "/dinos/10.allosaurus.jpg"
+  },
+  {
+    "name": "Archaeopteryx lithographica",
+    "family": "Theropod",
+    "period": "Jurassic",
+    "epoch": "Late Jurassic",
+    "age_mya": 150,
+    "diet": "Omnivore",
+    "formation": "Solnhofen Limestone",
+    "location": "Germany",
+    "length_m": 0.5,
+    "latitude": 48.9,
+    "longitude": 11.2,
+    "image": "/dinos/10.archaeopteryx.jpg"
   },
   {
     "name": "Iguanodon bernissartensis",
